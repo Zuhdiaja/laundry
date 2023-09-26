@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.menu{
+    font-family: 'Poppins';
+    /* font-weight: bold; */
+    height: 70px;
+    width: 100%;
+    background: #fff;
+    font-size: 18px;
+}
+label{ 
+    margin-left: 20px;
+    padding: 10px;
+    float: left;
+}
+.menu ul{
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.menu ul li a:hover{
+    color: #FF735D;
+    display: block;
+}
+.menu ul li .dropdown{
+    display: none;
+}
+.menu ul li:hover .dropdown{
+    display: block;
+    background: #ececec;
+    position: absolute;
+    padding: 10px;
+}
+.menu ul li:hover .dropdown li{
+    display: block;
+}
+.menu ul li:hover .dropdown li a{
+    padding: 10px;
+    /* border-radius: 5px; */
+    margin-bottom: 5px;
+}

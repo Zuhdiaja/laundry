@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans serif;
+}
+section{
+position: relative;
+width: 100%;
+min-height: 10vh;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header{
+position: fixed;
+background-color: #fff;
+top: 0;
+left: 0;
+width: 100%;
+padding: 15px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1;
+}
+header .logo{
+position: relative;
+max-width: 130px;
+}
+header ul{
+position: relative;
+display: flex;
+}
+header ul li{
+    display: inline-block;
+list-style: none;
+}
+header ul li a{
+display: block;
+color: #333;
+font-weight: 400;
+margin-left: 30px;
+text-decoration: none;
+padding: 10px;
+}
+header ul li a:hover{
+color:#FF735D;
+display: block;
+}
+header ul li .dropdown{
+    display: none;
+    /* text-decoration: none; */
+}
+header ul li:hover .dropdown{
+    color: #FF735D;
+    display: block;
+    background: #ffffff;
+    position: absolute;
+    padding: 10px;
+}
+header ul li:hover .dropdown li{
+    display: block;
+}
+header ul li:hover .dropdown li a{
+    padding: 10px;
+    /* border-radius: 5px; */
+    margin-bottom: 5px;
+}

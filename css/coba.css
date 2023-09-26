@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.tab{
+    margin-top: 10000px;
+}
+.order{
+    margin: 100px 350px;
+    max-width: 700px;
+    width: 100%;
+    background: #fe9a8a;
+    padding: 25px 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    /* float: right; */
+}
+.order-1{
+    margin: 10px;
+    max-width: 700px;
+    width: 95%;
+    background: #f7f7f7;
+    padding: 25px 10px;
+    border-radius: 5px;
+    text-align: center;
+    /* box-shadow: 0 2px 15px rgba(64,64,64,.7); */
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    /* float: right; */
+}
+.order .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.card .card-bdy input{
+    height: 35px;
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom width: 2px;
+    transition: all 0.3s ease;
+}
+.card span .button{
+    height: 35px;
+    width: 35px;
+    /* text-align: center; */
+    outline: none;
+    background: rgb(81, 154, 179);
+    border-radius: 5px;
+    border: 1px #ccc;
+    font-size: 16px;
+    border-bottom width: 2px;
+    transition: all 0.3s ease;
+}
+.card span .button:hover{
+    background: rgb(68, 128, 148);
+}
+.cart .member select{
+    height: 35px;
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom width: 2px;
+    transition: all 0.3s ease;
+}
+.cart .button_checkout{  
+    height: 35px;
+    width: 50%;
+    margin-top: 10px;
+    padding-top: 0px;
+    outline: none;
+    background: rgb(81, 154, 179);
+    border-radius: 5px;
+    border: 1px #ccc;
+    font-size: 16px;
+    border-bottom width: 2px;
+    transition: all 0.3s ease;
+}
+.cart .button_checkout:hover{
+    background: rgb(68, 128, 148);
+}
